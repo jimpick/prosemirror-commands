@@ -1,6 +1,6 @@
-import {joinPoint, canJoin, findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "prosemirror-transform"
-import {Slice, Fragment} from "prosemirror-model"
-import {Selection, TextSelection, NodeSelection, AllSelection} from "prosemirror-state"
+import {joinPoint, canJoin, findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "@jimpick/prosemirror-transform"
+import {Slice, Fragment} from "@jimpick/prosemirror-model"
+import {Selection, TextSelection, NodeSelection, AllSelection} from "@jimpick/prosemirror-state"
 
 // :: (EditorState, ?(tr: Transaction)) → bool
 // Delete the selection, if there is one.
